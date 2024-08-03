@@ -1,3 +1,28 @@
+"""
+Linked List
+-----------
+
+A linked list is a linear data structure where each element 
+is a separate object. Each element is called a node and consists of two items: 
+the data and a reference to the next node. 
+The last node has a reference to None.
+
+There are two types of linked lists:
+1. Singly-linked list: Each node has a reference to the next node.
+2. Doubly-linked list: Each node has a reference to the next and previous node.
+
+Linked lists are used to implement other data structures like stacks, queues, and graphs.
+
+In this snippet, we will implement the following functions:
+1. Reverse a singly-linked list.
+2. Merge two sorted linked lists.
+3. Sort a linked list using merge sort.
+
+Time complexity:
+- Reverse a singly-linked list: O(n)
+- Merge two sorted linked lists: O(n)
+- Sort a linked list using merge sort: O(n log n)
+"""
 class ListNode:
     """
     Definition for singly-linked list.
